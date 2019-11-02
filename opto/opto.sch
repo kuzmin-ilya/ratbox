@@ -1,0 +1,123 @@
+EESchema Schematic File Version 4
+LIBS:opto-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 5D3FF111
+P 5300 2300
+F 0 "Q?" H 5505 2346 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 5505 2255 50  0000 L CNN
+F 2 "" H 5500 2400 50  0001 C CNN
+F 3 "~" H 5300 2300 50  0001 C CNN
+	1    5300 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D3FF1DA
+P 5400 1700
+F 0 "R?" H 5470 1746 50  0000 L CNN
+F 1 "Rн" H 5470 1655 50  0000 L CNN
+F 2 "" V 5330 1700 50  0001 C CNN
+F 3 "~" H 5400 1700 50  0001 C CNN
+	1    5400 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+24V #PWR?
+U 1 1 5D3FF2BF
+P 5400 1450
+F 0 "#PWR?" H 5400 1300 50  0001 C CNN
+F 1 "+24V" H 5415 1623 50  0000 C CNN
+F 2 "" H 5400 1450 50  0001 C CNN
+F 3 "" H 5400 1450 50  0001 C CNN
+	1    5400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D3FF327
+P 5400 2600
+F 0 "#PWR?" H 5400 2350 50  0001 C CNN
+F 1 "GND" H 5405 2427 50  0000 C CNN
+F 2 "" H 5400 2600 50  0001 C CNN
+F 3 "" H 5400 2600 50  0001 C CNN
+	1    5400 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 2600 5400 2500
+Wire Wire Line
+	5400 2100 5400 1850
+Wire Wire Line
+	5400 1550 5400 1450
+$Comp
+L Device:R R?
+U 1 1 5D3FF3CD
+P 4900 2450
+F 0 "R?" H 4970 2496 50  0000 L CNN
+F 1 "R" H 4970 2405 50  0000 L CNN
+F 2 "" V 4830 2450 50  0001 C CNN
+F 3 "~" H 4900 2450 50  0001 C CNN
+	1    4900 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 2300 4900 2300
+$Comp
+L power:GND #PWR?
+U 1 1 5D3FF44C
+P 4900 2700
+F 0 "#PWR?" H 4900 2450 50  0001 C CNN
+F 1 "GND" H 4905 2527 50  0000 C CNN
+F 2 "" H 4900 2700 50  0001 C CNN
+F 3 "" H 4900 2700 50  0001 C CNN
+	1    4900 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2600 4900 2700
+$Comp
+L Isolator:SFH617A-1 U?
+U 1 1 5D3FF53A
+P 4600 2100
+F 0 "U?" H 4600 2425 50  0000 C CNN
+F 1 "SFH617A-1" H 4600 2334 50  0000 C CNN
+F 2 "Package_DIP:DIP-4_W7.62mm" H 4400 1900 50  0001 L CIN
+F 3 "http://www.vishay.com/docs/83740/sfh617a.pdf" H 4600 2100 50  0001 L CNN
+	1    4600 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D3FF620
+P 4900 1700
+F 0 "R?" H 4970 1746 50  0000 L CNN
+F 1 "R" H 4970 1655 50  0000 L CNN
+F 2 "" V 4830 1700 50  0001 C CNN
+F 3 "~" H 4900 1700 50  0001 C CNN
+	1    4900 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 2300 4900 2200
+Connection ~ 4900 2300
+Wire Wire Line
+	4900 2000 4900 1850
+Wire Wire Line
+	4900 1550 5400 1550
+Connection ~ 5400 1550
+$EndSCHEMATC
