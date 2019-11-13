@@ -70,7 +70,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/pca9306.pdf" H 12750 7850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L k_digital_mix:P82B715 D1
+L mainboard-rescue:P82B715-k_digital_mix D1
 U 1 1 5DBDFBB1
 P 11850 1850
 F 0 "D1" H 11850 2415 50  0000 C CNN
@@ -1005,17 +1005,6 @@ Wire Wire Line
 	12850 4150 12850 4250
 Text Notes 9000 3700 0    50   ~ 0
 НАДО ЛИ ДЕРГАТЬ ПИТАНИЕ I@C?
-$Comp
-L Connector_Generic:Conn_01x16 J1
-U 1 1 5DC8A30F
-P 5400 5500
-F 0 "J1" V 5524 5446 50  0000 C CNN
-F 1 "DISPLAY" V 5615 5446 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 5400 5500 50  0001 C CNN
-F 3 "~" H 5400 5500 50  0001 C CNN
-	1    5400 5500
-	0    -1   1    0   
-$EndComp
 Wire Notes Line
 	3850 1600 7200 1600
 Wire Notes Line
@@ -1024,97 +1013,17 @@ Wire Notes Line
 	7200 4000 3850 4000
 Wire Notes Line
 	3850 4000 3850 1600
-Wire Notes Line
-	4500 5500 6900 5500
-Wire Notes Line
-	6900 5500 6900 6600
-Wire Notes Line
-	6900 6600 4500 6600
-Wire Notes Line
-	4500 6600 4500 5500
-Wire Notes Line
-	4700 5800 4700 6400
-Wire Notes Line
-	4700 6400 6700 6400
-Wire Notes Line
-	6700 6400 6700 5800
-Wire Notes Line
-	6700 5800 4700 5800
 $Comp
 L Device:R_POT RV1
 U 1 1 5DCA0042
-P 4900 4850
-F 0 "RV1" V 4693 4850 50  0000 C CNN
-F 1 "R_POT" V 4784 4850 50  0000 C CNN
-F 2 "" H 4900 4850 50  0001 C CNN
-F 3 "~" H 4900 4850 50  0001 C CNN
-	1    4900 4850
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4900 5000 4900 5300
-Wire Wire Line
-	5050 4850 5100 4850
-Wire Wire Line
-	5100 4850 5100 4950
-$Comp
-L power:GND #PWR0132
-U 1 1 5DCB151A
-P 5100 4950
-F 0 "#PWR0132" H 5100 4700 50  0001 C CNN
-F 1 "GND" H 5105 4777 50  0000 C CNN
-F 2 "" H 5100 4950 50  0001 C CNN
-F 3 "" H 5100 4950 50  0001 C CNN
-	1    5100 4950
+P 5400 4800
+F 0 "RV1" V 5193 4800 50  0000 C CNN
+F 1 "R_POT" V 5284 4800 50  0000 C CNN
+F 2 "" H 5400 4800 50  0001 C CNN
+F 3 "~" H 5400 4800 50  0001 C CNN
+	1    5400 4800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4750 4850 4750 5100
-Wire Wire Line
-	4750 5100 4800 5100
-Wire Wire Line
-	4800 5100 4800 5300
-$Comp
-L power:GND #PWR0133
-U 1 1 5DCB5EFD
-P 4500 5250
-F 0 "#PWR0133" H 4500 5000 50  0001 C CNN
-F 1 "GND" H 4505 5077 50  0000 C CNN
-F 2 "" H 4500 5250 50  0001 C CNN
-F 3 "" H 4500 5250 50  0001 C CNN
-	1    4500 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4700 5300 4700 5200
-Wire Wire Line
-	4700 5200 4500 5200
-Wire Wire Line
-	4500 5200 4500 5250
-Wire Wire Line
-	6550 2800 5700 2800
-Wire Wire Line
-	5700 2800 5700 5300
-Wire Wire Line
-	5900 5300 5900 3000
-Wire Wire Line
-	5900 3000 6550 3000
-Wire Wire Line
-	7050 3000 7350 3000
-Wire Wire Line
-	7350 3000 7350 4500
-Wire Wire Line
-	7350 4500 6000 4500
-Wire Wire Line
-	6000 4500 6000 5300
-Wire Wire Line
-	7050 2900 7450 2900
-Wire Wire Line
-	7450 2900 7450 4600
-Wire Wire Line
-	7450 4600 5800 4600
-Wire Wire Line
-	5800 4600 5800 5300
 Wire Wire Line
 	7050 2400 9600 2400
 Wire Wire Line
@@ -1555,4 +1464,140 @@ Wire Wire Line
 	7050 2100 7300 2100
 Wire Wire Line
 	7300 2100 7300 2150
+$Comp
+L Display_Character:LCD-016N002L U?
+U 1 1 5DCD6780
+P 5950 5400
+F 0 "U?" H 5950 6378 50  0000 C CNN
+F 1 "LCD-016N002L" H 5950 6287 50  0000 C CNN
+F 2 "Display:LCD-016N002L" H 5970 4480 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/37299/37299.pdf" H 6450 5100 50  0001 C CNN
+	1    5950 5400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DD23078
+P 5400 4650
+F 0 "#PWR?" H 5400 4500 50  0001 C CNN
+F 1 "+5V" H 5415 4823 50  0000 C CNN
+F 2 "" H 5400 4650 50  0001 C CNN
+F 3 "" H 5400 4650 50  0001 C CNN
+	1    5400 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DD2319C
+P 5400 4950
+F 0 "#PWR?" H 5400 4700 50  0001 C CNN
+F 1 "GND" H 5405 4777 50  0000 C CNN
+F 2 "" H 5400 4950 50  0001 C CNN
+F 3 "" H 5400 4950 50  0001 C CNN
+	1    5400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DD9162C
+P 5950 4600
+F 0 "#PWR?" H 5950 4450 50  0001 C CNN
+F 1 "+5V" H 5965 4773 50  0000 C CNN
+F 2 "" H 5950 4600 50  0001 C CNN
+F 3 "" H 5950 4600 50  0001 C CNN
+	1    5950 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DD9182F
+P 5950 6200
+F 0 "#PWR?" H 5950 5950 50  0001 C CNN
+F 1 "GND" H 5955 6027 50  0000 C CNN
+F 2 "" H 5950 6200 50  0001 C CNN
+F 3 "" H 5950 6200 50  0001 C CNN
+	1    5950 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5DDFEB95
+P 5550 5200
+F 0 "#PWR?" H 5550 4950 50  0001 C CNN
+F 1 "GND" H 5555 5027 50  0000 C CNN
+F 2 "" H 5550 5200 50  0001 C CNN
+F 3 "" H 5550 5200 50  0001 C CNN
+	1    5550 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5DDFECD8
+P 5550 5100
+F 0 "#PWR?" H 5550 4950 50  0001 C CNN
+F 1 "+5V" H 5565 5273 50  0000 C CNN
+F 2 "" H 5550 5100 50  0001 C CNN
+F 3 "" H 5550 5100 50  0001 C CNN
+	1    5550 5100
+	1    0    0    -1  
+$EndComp
+Text Label 6350 5700 0    50   ~ 0
+lcd_db4
+Text Label 6350 5800 0    50   ~ 0
+lcd_db5
+Text Label 6350 5900 0    50   ~ 0
+lcd_db6
+Text Label 6350 6000 0    50   ~ 0
+lcd_db7
+Text Label 6350 4800 0    50   ~ 0
+lcd_e
+Text Label 6350 5000 0    50   ~ 0
+lcd_rs
+$Comp
+L power:GND #PWR?
+U 1 1 5DE091C2
+P 6350 4900
+F 0 "#PWR?" H 6350 4650 50  0001 C CNN
+F 1 "GND" V 6355 4772 50  0000 R CNN
+F 2 "" H 6350 4900 50  0001 C CNN
+F 3 "" H 6350 4900 50  0001 C CNN
+	1    6350 4900
+	0    -1   -1   0   
+$EndComp
+Text Label 6550 3000 2    50   ~ 0
+lcd_rs
+Text Label 7050 3400 0    50   ~ 0
+lcd_e
+Text Label 7050 3500 0    50   ~ 0
+lcd_db5
+Text Label 7050 3000 0    50   ~ 0
+lcd_db6
+Text Label 7050 2900 0    50   ~ 0
+lcd_db7
+Text Label 6550 2900 2    50   ~ 0
+heat_24V
+Text Label 7050 2800 0    50   ~ 0
+i2c_rst
+Text Label 12850 3700 2    50   ~ 0
+i2c_rst
+Text Label 7050 2500 0    50   ~ 0
+valve1_12V
+Text Label 6550 2600 2    50   ~ 0
+valve2_12V
+Text Label 6550 2800 2    50   ~ 0
+lcd_db4
+Text Label 7050 2600 0    50   ~ 0
+valve3_12V
+Text Label 6550 2700 2    50   ~ 0
+valve4_12V
+Text Label 7050 2700 0    50   ~ 0
+valve5_12V
+Text Label 6550 2500 2    50   ~ 0
+button
+Text Label 6550 3200 2    50   ~ 0
+pump_24V
+Text Label 7050 3200 0    50   ~ 0
+fan_12V
+Text Label 6550 3300 2    50   ~ 0
+reserv_24V
 $EndSCHEMATC
