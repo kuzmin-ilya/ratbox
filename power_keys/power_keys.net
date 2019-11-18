@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/ilya/dev/hypoxy/power_keys/power_keys.sch)
-    (date "Сб 26 окт 2019 00:09:27")
+    (source /home/ilya/github/my/ratbox/power_keys/power_keys.sch)
+    (date "Пн 18 ноя 2019 00:06:19")
     (tool "Eeschema 5.0.2+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
