@@ -261,12 +261,12 @@ Wire Wire Line
 $Comp
 L Amplifier_Operational:TL074 U5
 U 3 1 5DC0304C
-P 9700 1800
-F 0 "U5" H 9700 2167 50  0000 C CNN
-F 1 "TL074" H 9700 2076 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9650 1900 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9750 2000 50  0001 C CNN
-	3    9700 1800
+P 3650 7050
+F 0 "U5" H 3650 7417 50  0000 C CNN
+F 1 "TL074" H 3650 7326 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3600 7150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3700 7250 50  0001 C CNN
+	3    3650 7050
 	1    0    0    1   
 $EndComp
 $Comp
@@ -538,12 +538,12 @@ Connection ~ 10000 1800
 $Comp
 L Amplifier_Operational:TL074 U5
 U 2 1 5DC36C1D
-P 3500 3300
-F 0 "U5" H 3500 3667 50  0000 C CNN
-F 1 "TL074" H 3500 3576 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3450 3400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3550 3500 50  0001 C CNN
-	2    3500 3300
+P 3650 5300
+F 0 "U5" H 3650 5667 50  0000 C CNN
+F 1 "TL074" H 3650 5576 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3600 5400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3700 5500 50  0001 C CNN
+	2    3650 5300
 	1    0    0    1   
 $EndComp
 $Comp
@@ -871,12 +871,12 @@ Wire Wire Line
 $Comp
 L Amplifier_Operational:TL074 U5
 U 1 1 5DCF6CD2
-P 3500 1600
-F 0 "U5" H 3500 1967 50  0000 C CNN
-F 1 "TL074" H 3500 1876 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3450 1700 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3550 1800 50  0001 C CNN
-	1    3500 1600
+P 3500 3300
+F 0 "U5" H 3500 3667 50  0000 C CNN
+F 1 "TL074" H 3500 3576 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3450 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3550 3500 50  0001 C CNN
+	1    3500 3300
 	1    0    0    1   
 $EndComp
 $Comp
@@ -1220,12 +1220,12 @@ Text Notes 8050 2950 0    50   ~ 0
 $Comp
 L Amplifier_Operational:TL074 U5
 U 4 1 5DD05522
-P 9700 3550
-F 0 "U5" H 9700 3917 50  0000 C CNN
-F 1 "TL074" H 9700 3826 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9650 3650 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9750 3750 50  0001 C CNN
-	4    9700 3550
+P 3500 1600
+F 0 "U5" H 3500 1967 50  0000 C CNN
+F 1 "TL074" H 3500 1876 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3450 1700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3550 1800 50  0001 C CNN
+	4    3500 1600
 	1    0    0    1   
 $EndComp
 $Comp
@@ -1569,12 +1569,12 @@ Text Notes 2000 4700 0    50   ~ 0
 $Comp
 L Amplifier_Operational:TL074 U6
 U 1 1 5DD0CB8C
-P 3650 5300
-F 0 "U6" H 3650 5667 50  0000 C CNN
-F 1 "TL074" H 3650 5576 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3600 5400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3700 5500 50  0001 C CNN
-	1    3650 5300
+P 9700 3550
+F 0 "U6" H 9700 3917 50  0000 C CNN
+F 1 "TL074" H 9700 3826 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9650 3650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9750 3750 50  0001 C CNN
+	1    9700 3550
 	1    0    0    1   
 $EndComp
 $Comp
@@ -1918,12 +1918,12 @@ Text Notes 2000 6450 0    50   ~ 0
 $Comp
 L Amplifier_Operational:TL074 U6
 U 2 1 5DD0CC4A
-P 3650 7050
-F 0 "U6" H 3650 7417 50  0000 C CNN
-F 1 "TL074" H 3650 7326 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 3600 7150 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 3700 7250 50  0001 C CNN
-	2    3650 7050
+P 9700 5400
+F 0 "U6" H 9700 5767 50  0000 C CNN
+F 1 "TL074" H 9700 5676 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9650 5500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9750 5600 50  0001 C CNN
+	2    9700 5400
 	1    0    0    1   
 $EndComp
 $Comp
@@ -2267,12 +2267,12 @@ Text Notes 8050 4800 0    50   ~ 0
 $Comp
 L Amplifier_Operational:TL074 U6
 U 3 1 5DD1CAAB
-P 9700 5400
-F 0 "U6" H 9700 5767 50  0000 C CNN
-F 1 "TL074" H 9700 5676 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9650 5500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9750 5600 50  0001 C CNN
-	3    9700 5400
+P 9700 7150
+F 0 "U6" H 9700 7517 50  0000 C CNN
+F 1 "TL074" H 9700 7426 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9650 7250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9750 7350 50  0001 C CNN
+	3    9700 7150
 	1    0    0    1   
 $EndComp
 $Comp
@@ -2616,12 +2616,12 @@ Text Notes 8050 6550 0    50   ~ 0
 $Comp
 L Amplifier_Operational:TL074 U6
 U 4 1 5DD1CB69
-P 9700 7150
-F 0 "U6" H 9700 7517 50  0000 C CNN
-F 1 "TL074" H 9700 7426 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9650 7250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9750 7350 50  0001 C CNN
-	4    9700 7150
+P 9700 1800
+F 0 "U6" H 9700 2167 50  0000 C CNN
+F 1 "TL074" H 9700 2076 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 9650 1900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tl071.pdf" H 9750 2000 50  0001 C CNN
+	4    9700 1800
 	1    0    0    1   
 $EndComp
 $Comp
