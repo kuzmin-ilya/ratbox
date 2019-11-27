@@ -272,12 +272,12 @@ $EndComp
 $Comp
 L Comparator:LM2901 U7
 U 3 1 5DC108C9
-P 11100 1900
-F 0 "U7" H 11100 1533 50  0000 C CNN
-F 1 "LM2901" H 11100 1624 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 11050 2000 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 11150 2100 50  0001 C CNN
-	3    11100 1900
+P 5050 5400
+F 0 "U7" H 5050 5033 50  0000 C CNN
+F 1 "LM2901" H 5050 5124 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5000 5500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 5100 5600 50  0001 C CNN
+	3    5050 5400
 	1    0    0    1   
 $EndComp
 $Comp
@@ -549,12 +549,12 @@ $EndComp
 $Comp
 L Comparator:LM2901 U7
 U 2 1 5DC36C23
-P 4900 3400
-F 0 "U7" H 4900 3033 50  0000 C CNN
-F 1 "LM2901" H 4900 3124 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4850 3500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 4950 3600 50  0001 C CNN
-	2    4900 3400
+P 4900 1700
+F 0 "U7" H 4900 1333 50  0000 C CNN
+F 1 "LM2901" H 4900 1424 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4850 1800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 4950 1900 50  0001 C CNN
+	2    4900 1700
 	1    0    0    1   
 $EndComp
 $Comp
@@ -882,12 +882,12 @@ $EndComp
 $Comp
 L Comparator:LM2901 U7
 U 1 1 5DCF6CD8
-P 4900 1700
-F 0 "U7" H 4900 1333 50  0000 C CNN
-F 1 "LM2901" H 4900 1424 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4850 1800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 4950 1900 50  0001 C CNN
-	1    4900 1700
+P 4900 3400
+F 0 "U7" H 4900 3033 50  0000 C CNN
+F 1 "LM2901" H 4900 3124 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4850 3500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 4950 3600 50  0001 C CNN
+	1    4900 3400
 	1    0    0    1   
 $EndComp
 $Comp
@@ -1231,12 +1231,12 @@ $EndComp
 $Comp
 L Comparator:LM2901 U7
 U 4 1 5DD05528
-P 11100 3650
-F 0 "U7" H 11100 3283 50  0000 C CNN
-F 1 "LM2901" H 11100 3374 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 11050 3750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 11150 3850 50  0001 C CNN
-	4    11100 3650
+P 5050 7150
+F 0 "U7" H 5050 6783 50  0000 C CNN
+F 1 "LM2901" H 5050 6874 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5000 7250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 5100 7350 50  0001 C CNN
+	4    5050 7150
 	1    0    0    1   
 $EndComp
 $Comp
@@ -1580,12 +1580,12 @@ $EndComp
 $Comp
 L Comparator:LM2901 U8
 U 1 1 5DD0CB92
-P 5050 5400
-F 0 "U8" H 5050 5033 50  0000 C CNN
-F 1 "LM2901" H 5050 5124 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5000 5500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 5100 5600 50  0001 C CNN
-	1    5050 5400
+P 11100 3650
+F 0 "U8" H 11100 3283 50  0000 C CNN
+F 1 "LM2901" H 11100 3374 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 11050 3750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 11150 3850 50  0001 C CNN
+	1    11100 3650
 	1    0    0    1   
 $EndComp
 $Comp
@@ -1929,12 +1929,12 @@ $EndComp
 $Comp
 L Comparator:LM2901 U8
 U 2 1 5DD0CC50
-P 5050 7150
-F 0 "U8" H 5050 6783 50  0000 C CNN
-F 1 "LM2901" H 5050 6874 50  0000 C CNN
-F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 5000 7250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 5100 7350 50  0001 C CNN
-	2    5050 7150
+P 11100 1900
+F 0 "U8" H 11100 1533 50  0000 C CNN
+F 1 "LM2901" H 11100 1624 50  0000 C CNN
+F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 11050 2000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm339.pdf" H 11150 2100 50  0001 C CNN
+	2    11100 1900
 	1    0    0    1   
 $EndComp
 $Comp
