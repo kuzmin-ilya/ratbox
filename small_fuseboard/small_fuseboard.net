@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/ilya/github/my/ratbox/small_fuseboard/small_fuseboard.sch)
-    (date "Пн 25 ноя 2019 02:28:33")
+    (date "Пт 29 ноя 2019 00:25:19")
     (tool "Eeschema 5.0.2+dfsg1-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
